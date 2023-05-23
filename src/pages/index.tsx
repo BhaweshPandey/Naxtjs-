@@ -52,9 +52,6 @@ function Home({ avatar }: UserInfoActionProps) {
                 <Text ta="center" c="dimmed" fz="sm">
                   {item.title}
                 </Text>
-                <Text ta="center" c="dimmed" fz="sm">
-                  {item.completed}
-                </Text>
 
                 <Button variant="default" fullWidth mt="md">
                   You
